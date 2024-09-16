@@ -1,0 +1,9 @@
+.resultsContainer {
+  min-height: 582px;
+  min-width: 582px;
+}
+.notFoundText {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--pinkish-grey);
+}

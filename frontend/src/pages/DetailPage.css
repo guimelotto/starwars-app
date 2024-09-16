@@ -1,0 +1,11 @@
+.detailContainer {
+  min-width: 800px;
+}
+
+.detailContainer p {
+  margin: 0;
+}
+
+.crawl {
+  white-space: pre-wrap;
+}

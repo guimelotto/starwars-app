@@ -1,0 +1,9 @@
+.searchContainer {
+  min-width: 410px;
+  height: fit-content;
+}
+.textInput::placeholder {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--pinkish-grey);
+}

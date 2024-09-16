@@ -1,0 +1,47 @@
+:root {
+  --gainsboro: #dadada;
+  --green-teal: #0ab463;
+  --pinkish-grey: #c4c4c4;
+  --emerald: #089954;
+  --azure: #0094ff;
+  --warm-grey-75: rgba(132, 132, 132, 0.75);
+}
+
+* {
+  font-family: Montserrat !important;
+}
+
+body {
+  background-color: #ededed;
+}
+
+.customButton {
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border: solid 1px var(--green-teal);
+  background-color: var(--green-teal);
+}
+
+.customButton:hover {
+  border: solid 1px var(--green-teal);
+  background-color: var(--green-teal);
+}
+
+.customButton:active {
+  border: solid 1px var(--green-teal);
+  background-color: var(--green-teal);
+}
+
+.customButton:focus {
+  border: solid 1px var(--green-teal);
+  background-color: var(--green-teal);
+}
+
+.customButton:disabled {
+  border: solid 1px var(--pinkish-grey);
+  background-color: var(--pinkish-grey);
+}
