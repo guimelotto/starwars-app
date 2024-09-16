@@ -14,7 +14,13 @@ const searchFilms = async (title) => {
 
 const getFilm = async (id) => {
   const data = await ApiSwGetFilm(id);
-  return data;
+
+  const mapped = {
+    title: data.title,
+    opening_crawl: data.opening_crawl,
+  };
+
+  return mapped;
 };
 
 module.exports = {

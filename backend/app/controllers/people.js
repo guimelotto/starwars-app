@@ -16,7 +16,17 @@ const searchPeople = async (title) => {
 const getPerson = async (id) => {
   const data = await ApiSwGetPerson(id);
 
-  return data;
+  const mapped = {
+    name: data.name,
+    birth_year: data.birth_year,
+    gender: data.gender,
+    eye_color: data.eye_color,
+    hair_color: data.hair_color,
+    height: data.height,
+    mass: data.mass,
+  };
+
+  return mapped;
 };
 
 module.exports = {
